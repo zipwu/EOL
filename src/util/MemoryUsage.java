@@ -107,7 +107,7 @@ public class MemoryUsage extends JPanel {
      * @param args                                                                                 
      */                                                                                            
     public static void main(String[] args) {                                                       
-        JFrame jframe = new JFrame("JVM Memory Usage");                                            
+        JFrame jframe = new JFrame("JVM Memory Usage Chart");                                            
         MemoryUsage memoryusagedemo = new MemoryUsage(10000);                                      
         jframe.getContentPane().add(memoryusagedemo, "Center");                                    
         jframe.setBounds(200, 120, 1000, 500);                                                     
